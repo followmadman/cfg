@@ -1,0 +1,10 @@
+start /wait srcds.exe -game csgo +hostname "GammaGaming #1" -console -usercon +game_type 0 +game_mode 0 +mapgroup mg_bomb +map de_dust2 -maxplayers_override 12 +sv_setsteamaccount DE02C83F317B183FBC3AEA24B960B53E +sv_lan 0 +net_public_adr 94.51.65.232 -port 27016 -tickrate 128
+
+
+
+rcon_password ""
+sv_password "" //Only set this if you intend to have a private server!
+sv_cheats 0 //This should always be set, so you know it's not on
+sv_lan 0 //This should always be set, so you know it's not on
+exec banned_user.cfg
+exec banned_ip.cfg
