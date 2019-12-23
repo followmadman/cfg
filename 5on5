@@ -156,8 +156,8 @@ sv_spawn_afk_bomb_drop_time 30                  // Players that spawn and dont m
 sv_steamgroup_exclusive 0                       // If set, only members of Steam group will be able to join the server when its empty, public people will be able to join the server only if it has players.
 sv_stopspeed 80                                 // Player stop speed
 sv_voiceenable 1                                // Allow ingame voice
-sv_teamid_overhead_always_prohibit 1            // Disables cl_teamid_overhead_always
-sv_show_team_equipment_prohibit 1               // Disables +cl_show_team_equipment
+sv_teamid_overhead_always_prohibit 0            // Disables cl_teamid_overhead_always
+sv_show_team_equipment_prohibit 0               // Disables +cl_show_team_equipment
 
 
 // Server Rates
